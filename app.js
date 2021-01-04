@@ -30,7 +30,7 @@ app.use(morgan('\x1B[34m:status \x1B[39m::remote-addr :method :url \x1B[36m:res[
 //路由
 app.use('/', function (req, res, next) {
     // if (req.url == '/') return res.redirect(301, 'https://boevr.cn/index');
-    if (req.url === '/') return res.redirect(301, 'http://localhost/index');
+    if (req.url === '/') return res.redirect(301, 'http://8.131.246.88/index');
     next();
 });
 app.use('/index', require('./routes/index'));

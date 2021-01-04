@@ -11,7 +11,7 @@ const connection = mysql.createConnection({
     user: 'will',
     password: 'F234F234',
     port: '3306',
-    database: 'wx',
+    database: 'usersys',
 });
 //怎么关闭？？？
 connection.connect();
